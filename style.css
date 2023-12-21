@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    background-color: aquamarine;
+
+}
+
+nav {
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav li a:hover {
+    color: blue;
+    transition: 0.3s;
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+.header-img {
+    position: relative;
+    height: 300px;
+    background-image: url(./mountains-g4f88a460c_1280.png);
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lime;
+}
+
+.header-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(14, 7, 7, 0.2)
+}
+
+main {
+    width: 1200px;
+    margin:50px auto;
+
+}
+
+main h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-us-box {
+    margin: 40px 0;
+    position: relative;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+
+.top {
+    background-image: url(./kwiatek.jpg);
+}
+
+.middle {
+    
+    background-image: url(./butterfly-g9ba8e411a_640.jpg);
+}
+
+.bot {
+    background-image: url(wóz.jpg);
+}
+
+.bot-text {
+    position: relative;
+    bottom: 20px;
+    padding: 260px 40px;
+    text-align: center;
+    color: wheat;
+}
+
+.about-us-text {
+    position: absolute;
+    bottom: 20px;
+    padding: 30px 40px;
+    text-align: center;
+    color: wheat;
+}
+
+.about-us-text h3 {
+    text-transform: uppercase;
+}
+
+.about-us-bg {
+    position: absolute;
+    bottom: 0;
+    height: 42%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.services-list {
+    margin: 0 auto;
+    width: 200px;
+    background-color: orange;
+}
+
+.prices-table {
+    margin: 0 auto;
+    width: 200px;
+    background-color: chartreuse;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 36px;
+}
+footer {
+    height: 80px;
+    line-height: 80px;
+    color: red;
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icon-box {
+    margin-left: 20px;
+}
+
+.icon-box a {
+    margin: 0 5px;
+    color:antiquewhite;
+    font-size: 30px;
+}
+
+.icon-box a:hover {
+    color: blue;
+    transition: 0.5s;
+
+}
+
